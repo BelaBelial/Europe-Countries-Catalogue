@@ -10,7 +10,7 @@ Este projeto é um visualizador de informaçõs geográficas (website) de todos 
 
 ![alt text](./demo-imgs/image.png) 
 ![alt text](./demo-imgs/image-1.png)
-<video controls src="./demo-imgs/20251215-1245-53.0181605.mp4" title="Title"></video>
+![<video controls src="" title="Title"></video>](demo-imgs/gif.gif)
 
 
 # Como Instalar e Visualizar o Projeto na Máquina Local:
