@@ -1,0 +1,57 @@
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.country-name{
+    font-size: 4rem;
+    color: #a7a1dd; 
+    /* 9690d1 */
+    letter-spacing: 8px;
+    text-decoration: underline;
+    margin: 10px;
+}
+
+.home{
+    height: 430px;
+    width: 1310px;
+    background-color: #1f1d36;
+    border-radius: 20px;
+    padding: 30px;
+    border: solid 2.5px #a7a1dd;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 22px 60px 4px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-container{
+    flex-direction: column;
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-img{
+    height: 360px;
+    width: 100%;
+}
+
+.cover{
+    display: flex;
+    justify-content: flex-start;
+    align-items: top;
+    width: 550px;
+    background-color: transparent;
+}
+.information{
+    width: 550px;
+    height: 360px;
+    align-content: center;
+}
+.information-texts{
+    font-size: 2rem;
+    text-wrap: wrap;
+    color: #a7a1dd;
+}

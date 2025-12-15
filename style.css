@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #19172b;
+    font-family: "Outfit";
+    height: 430vh;
+    /* set the height to 800vh everytime the container opens a flag */
+    width: 100vw;
+}
+
+.main-nav{
+    height: 90px;
+    width: 100vw;
+    background-color: #1f1d36;
+    padding-left: 100px;
+    padding-right: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#countries{
+    font-size: 1.8rem;
+    color: #9690d1;
+    transition: 0.3s ease;
+}
+
+#countries:hover{
+    scale: 1.1;
+}
+
+.nav-links{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.li{
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #5d5991;
+    transition: 0.3s ease;
+}
+
+.li:hover{
+    color: #9690d1;
+}
+
+.center-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    margin-top: 40px;
+    width: 2000px;
+    height: 400vh;
+    /* background-color: greenyellow; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.list{
+    /* width: 2300px; */
+    width: 2000px;
+    height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: transparent;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 30px 0 rgba(0, 0, 0, 0.19); */
+    margin-bottom: 20px;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 22px 60px 4px;
+    /* background-color: #5d5991; */
+    border-radius: 20px;
+}
+
+img{
+    /* height: 170px; */
+    /* max-width: 100%; */
+    /* max-height: 100%; */
+    height: 250px;
+    width: 350px;
+    object-fit: fill;
+    border-radius: 15px;
+    transition: 0.3s ease;
+}
+
+img:hover{
+    scale: 1.07;
+}
+
+.flag{
+    height: 350px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: bisque; */
+    /* border-radius: 10px; */
+}
+
+.img-cont{
+    /* background-color: white; */
+    height: 250px;
+    width: 350px;
+    border-radius: 15px;
+}
+.names{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #a7a1dd;
+    text-align: center;
+    font-weight: 500;
+    padding: 10px;
+    font-size: 2rem;
+    transition: 0.3s ease;
+}
+.names:hover{
+    font-weight: 800;
+}
+.names-link{
+    text-decoration: none;
+}
