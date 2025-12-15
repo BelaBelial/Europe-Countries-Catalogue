@@ -8,9 +8,9 @@ Este projeto é um visualizador de informaçõs geográficas (website) de todos 
 
 # Confira abaixo algumas imagens demonstrativas do website:
 
-![alt text](image.png) 
-![alt text](image-1.png)
-<video controls src="20251215-1245-53.0181605.mp4" title="Title"></video>
+![alt text](./demo-imgs/image.png) 
+![alt text](./demo-imgs/image-1.png)
+<video controls src="./demo-imgs/20251215-1245-53.0181605.mp4" title="Title"></video>
 
 
 # Como Instalar e Visualizar o Projeto na Máquina Local:
@@ -23,7 +23,8 @@ Este projeto é um visualizador de informaçõs geográficas (website) de todos 
 - Uma vez que o processo de instalação chegou ao fim, verifique se o Git está mesmo em sua máquina.
     - Abra o terminal de seu computador: *(Windows: Win + R, e digite "cmd" no pop-up que aparecer)*, *(Linux: Ctrl + Alt + T)*.
     - Ao abrir o terminal, digite o seguinte comando: (```git --version```) ou (```git -v```)
-        ![alt text](image-2.png)
+    
+        ![alt text](./demo-imgs/image-2.png)
     
     - Deve aparecer um texto indicando a versão atual do Git instalado em sua máquina. Se aparecer algo diferente disso, verifique se você realmente seguiu o processo correto de instalação, ou reinicie o terminal e o computador para que o programa possa se ajustar à sua máquina. Na dúvida, repita o processo de instalação.
 
@@ -32,12 +33,14 @@ Este projeto é um visualizador de informaçõs geográficas (website) de todos 
 1. Tenha o Github aberto em seu navegador.
 2. Lá, acesse o repositório deste projeto e **Clique no botão verde onde estpa escrito "<> Code"**
 3. Na aba "Local", perceba que há um link *https://*, e **o copie clicando no botão ao lado direito do link:**.
-        ![alt text](image-3.png)
+
+    ![alt text](./demo-imgs/image-3.png)
+    
 4. Agora o link do repositório remoto está na sua área de tranferência, e você deve começar o processo de clonagem para sua máquina. Para começar, abra o terminal seguindo as instruções dadas anteriormente dependendo de seu SO ou o faça da maneira que achar melhor.
 5. Navegue até a pasta onde deseja clonar, e digite o comando: (```git clone <https://github.com/BelaBelial/Europe-Countries-Catalogue.git>```)
-        ![alt text](image-4.png)
+        ![alt text](./demo-imgs/image-4.png)
 6. Agora abra a pasta onde você acabou de clonar o projeto por meio do Explorador de Arquivos do seu OS para poder visualizar os arquivos presentes. Você acabou de clonar o projeto.
-        ![alt text](image-5.png)
+        ![alt text](./demo-imgs/image-5.png)
 
 ### Abrindo com sua IDE:
 - Uma vez que o processo de clonagem está pronto, você deve abrir a pasta inteira do projeto em um editor de código de sua preferência. 
@@ -47,7 +50,7 @@ Este projeto é um visualizador de informaçõs geográficas (website) de todos 
     - Para verificar se funcionou, digite no terminal: (```code --version```) e a versão do VS Code deve aparecer para você.
 - Depois disso, você **abrir o VS Code e clicar em "File - Open Folder"** (ou qualquer outra IDE que você esteja usando) e selecionar a pasta do repositório que você acabou de clonar.
 - Quando você tiver a pasta já aberta no VS Code, **no painel lateral que fica na esquerda, clique em "Extensões" e pesquise por "Live Server"**.
-        ![alt text](image-6.png)
+        ![alt text](./demo-imgs/image-6.png)
 - Clique em "Instalar" e complete a instalação. 
 - Agora abra o arquivo *"index.html"* na raíz da pasta e no canto inferior direito do VS Code, clique em "Go Live", o que vai abrir uma aba em seu navegador.
 - **Uma vez que você fez isso, vai poder visualizar o projeto e usufruir do website completo ou até mesmo distribuir ele.**
